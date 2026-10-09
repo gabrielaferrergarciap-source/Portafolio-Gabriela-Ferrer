@@ -1,0 +1,47 @@
+head{
+  background-color: black;
+}
+body{
+  background-color: black;
+  margin: 0%
+}
+
+nav {
+  background-color: black;
+  text-align: center;
+  padding: 30px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav ul li {
+  display: inline;
+  margin: 0px 40px;
+}
+
+nav ul li {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 10px, 15px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px)
+{
+  nav ul li
+  {
+    flex-direction: colunm;
+    text-align: center;
+  }
+  nav ul li{
+    margin: 20px 0;
+  }
+}
