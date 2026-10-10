@@ -1,47 +1,106 @@
-head{
-  background-color: black;
+head {
+    background-color: black;
+    color: white;
 }
-body{
-  background-color: black;
-  margin: 0%
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
 }
 
 nav {
-  background-color: black;
-  text-align: center;
-  padding: 30px 0;
+    background-color: black;
+    text-align: center;
+    padding: 15px 30px;
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-nav ul li {
-  display: inline;
-  margin: 0px 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
 }
 
 nav ul li {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-  transition: background-color 0.3s, color 0.3s;
-  padding: 10px, 15px;
-  border-radius: 5px;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    color: white;
+    font-family: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    transition: opacity 0.2s;
+    padding: 10px, 15px;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    font-weight: bold;
+    font-size: 2em;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px)
 {
-  nav ul li
-  {
-    flex-direction: colunm;
+    nav ul li {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul li {
+        margin: 20px 0;
+    }
+}
+#sobremi {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    color: white;
+    margin: 5%;
+}
+
+#sobremi img {
+    width: 400px;
+    height: 300px;
+    border-radius: 2%;
+}
+
+#sobremi div {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#sobremi div h1,
+#sobremi div p {
+    text-align: left;
+    margin-left: 0;
+}
+#sobremi1 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    margin: 5%;
     text-align: center;
-  }
-  nav ul li{
-    margin: 20px 0;
-  }
+}
+
+#sobremi1 img {
+    height: 200px;
+    width: 300px;
+    border-radius: 2%;
 }
