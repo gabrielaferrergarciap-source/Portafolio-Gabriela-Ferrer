@@ -104,3 +104,37 @@ nav ul li {
     width: 300px;
     border-radius: 2%;
 }
+#imagenes {
+    display: flex;
+    margin: 5%  ;
+    gap: 30px;
+    align-items: center;
+}
+#imagenes img {
+    height: 300px;
+    width: 400px;
+    border-radius: 2%;
+}
+#Experiencia {
+    display: flex;
+    margin: 10%;
+    color: white;
+    background-color: black;
+    justify-content: center;;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+#Experiencia img {
+    height: 300px;
+    width: 300px;
+    border-radius: 2%;
+    align-items: center;
+    
+}
+#img1 {
+    display: flex;
+}
+#img2 {
+    display: flex;
+}
